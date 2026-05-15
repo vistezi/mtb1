@@ -1,0 +1,79 @@
+body{background-image: url(bg.jpg);}
+.logo{width: 120px;
+transition: 0.4s;}
+.logo:hover{transform: scale(1.1);}
+.header h1{color: rgb(107, 112, 104);
+font-size:55px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-left: 50px;
+transition: 0.4s;
+transform: translateY(-6px);
+
+display: inline-block;
+width: max-content;
+}
+.header h1:hover{color: rgb(221, 221, 221);
+transform: scale(1.1);}
+.mtb{margin-left: 160px;
+transition: 0.3s;
+transform: translateY(17px);}
+.mtb:hover{transform: scale(1.1);
+;}
+.reg{margin-top: 100px;}
+.reg_but{width: 250px;
+height: 200px;
+border:3px white;
+background-color: rgba(161, 164, 167, 0.555);
+border-radius: 10px;
+color: aliceblue;
+margin-top: 50px;
+
+transition: 0.3s;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px;
+border: 2px solid white;
+text-decoration: none;}
+.reg_but:hover{background-color: rgb(226, 230, 233);
+color: black;
+transform: scale(1.1);}
+.reg_but:active{background-color: rgb(61, 59, 59);
+color: rgb(155, 161, 168);
+transform: scale(1.2);}
+.block_data{width: 1920px;
+    height: 100px; background-color:rgb(122, 122, 122);
+text-align: center;}
+.block_data h1{margin-top: 100px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: aliceblue;
+font-size: 55px;}
+.data{margin-top: 550px;
+}
+.data_input{margin-left: 200px;
+transform: translateY(-55px);
+text-align: center;
+border:2px solid rgb(43, 42, 42);
+height: 25px;
+background-color: rgb(164, 165, 165);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(0, 0, 0);
+border-radius: 10px;}
+.data_input:focus{background-color: rgb(255, 255, 255);
+}
+.data_input_name{margin-left: 120px;
+transform: translateY(-55px);
+text-align: center;
+border:2px solid rgb(43, 42, 42);
+height: 25px;
+background-color: rgb(164, 165, 165);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(0, 0, 0);
+border-radius: 10px;}
+.data_input_name:focus{background-color: rgb(255, 255, 255);
+    
+}
+
+.category{
+color: rgb(255, 255, 255);
+}
+.toc{margin-top: 1500px;}
+html{scroll-behavior: smooth;}
